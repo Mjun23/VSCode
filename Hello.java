@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Hello{
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
-        int age, withdraw, number, deposit;
+        int age, withdraw, number;
         int bank_book = 10000;
 
         System.out.println("나이를 입력해 주세요 ");
