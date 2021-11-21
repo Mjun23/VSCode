@@ -33,7 +33,7 @@ public class Hello{
             }
     }
         }else {
-            System.out.println("미성년자 이므로 사용이 불가");
+            System.out.println("미성년자 이므로 사용이 불가합니다");
         }
        sc.close();
     }
