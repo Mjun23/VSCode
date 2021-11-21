@@ -26,7 +26,6 @@ public class Hello{
                     Thread.sleep(3000);                   
                     System.out.println("/n정상적으로 출금 되었습니다\n통장에 남은돈은 " + (bank_book - withdraw) + " 원입니다");
                     bank_book = (bank_book - withdraw);
-                    continue Systemin;
                 }else{
                     System.out.println("통장에 있는 돈보다 출금하려는 금액이 큽니다");
                 }
