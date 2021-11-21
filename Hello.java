@@ -9,7 +9,7 @@ public class Hello{
         System.out.println("나이를 입력해 주세요 ");
         age = sc.nextInt();
         if(age > 20) {
-            System.out.println("\n성인 이므로 사용이 가능");
+            System.out.println("\n성인 이므로 사용이 가능합니다");
             Thread.sleep(1000);
             System.out.println("\n몇초 후 은행 프로그램이 시작됩니다");
             Thread.sleep(5000);
