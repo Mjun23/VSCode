@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class Hello{
     public static void main(String[] args) throws InterruptedException {
         Scanner sc = new Scanner(System.in);
-        int age, withdraw, number;
+        int age, number;
         int bank_book = 10000;
         int while_open = 0;
         int deposit = 0;
+        int withdraw = 0;
 
         System.out.println("나이를 입력해 주세요 ");
         age = sc.nextInt();
