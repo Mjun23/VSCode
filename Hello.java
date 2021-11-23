@@ -56,14 +56,14 @@ public class Hello{
                             break;
                         }
                     case 3 :
-                    System.out.println("통장을 확인중입니다");
-                    Thread.sleep(3000);
-                    System.out.println("\n통장에는 " + bank_book + " 원이 있고\n현금으로는 " + withdraw + " 원이 있습니다");
-                    break;
+                        System.out.println("통장을 확인중입니다");
+                        Thread.sleep(3000);
+                            System.out.println("\n통장에는 " + bank_book + " 원이 있고\n현금으로는 " + withdraw + " 원이 있습니다");
+                            break;
                     case 4 :
-                    System.out.println("시스템을 종료합니다");
-                    while_open = 1;
-                    break;
+                        System.out.println("시스템을 종료합니다");
+                        while_open = 1;
+                        break;
                     default :
                             System.out.println("잘못 입력하셨습니다");
                             break;
